@@ -80,10 +80,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
     private func setupButtonGet() {
 outletGet.setTitle("Ввійти", for: .normal)
 outletGet.setTitleColor(.white, for: .normal)
-outletGet.layer.cornerRadius = 5    /// радиус закругления
-outletGet.layer.borderWidth = 1.0   // толщина обводки
+outletGet.layer.cornerRadius = 5   
+outletGet.layer.borderWidth = 1.0   
 outletGet.layer.borderColor = (UIColor(red: 169.9/255.0, green: 169.9/255.0, blue: 169.9/255.0, alpha: 1.0)).cgColor // цвет обводки
-outletGet.clipsToBounds = true  // не забудь это, а то не закруглиться
+outletGet.clipsToBounds = true  
     }
     
     private func veryficate() {
